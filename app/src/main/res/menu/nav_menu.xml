@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+  <group android:checkableBehavior="single">
+  <item
+      android:id="@+id/nav_payment"
+      android:title="Payment Methods"
+      android:icon="@drawable/ic_baseline_payment_24"/>
+
+    <item
+        android:id="@+id/nav_address"
+        android:title="Addresses"
+        android:icon="@drawable/address"/>
+    <item
+        android:id="@+id/nav_password"
+        android:title="Password"
+        android:icon="@drawable/ic_baseline_lock_24"/>
+
+    <item
+        android:id="@+id/nav_household"
+        android:title="Houdehold and other"
+        android:icon="@drawable/ic_baseline_other_houses_24"/>
+  </group>
+
+</menu>

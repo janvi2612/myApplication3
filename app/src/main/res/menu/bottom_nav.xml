@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:title="Vendor"
+        android:id="@+id/vendor"
+        android:icon="@drawable/ic_baseline_person_24"/>
+    <item android:title="List"
+        android:id="@+id/list"
+        android:icon="@drawable/ic_baseline_list_24"/>
+    <item android:title="Category"
+        android:id="@+id/category"
+        android:icon="@drawable/ic_baseline_category_24"/>
+    <item android:title="More"
+        android:id="@+id/more"
+        android:icon="@drawable/ic_baseline_more_vert_24"/>
+</menu>
